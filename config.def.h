@@ -9,14 +9,14 @@ static const char *fonts[] = {
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 
 
-//static const char *colors[SchemeLast][2] = {
+static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
-//	[SchemeNorm] = { "#bac9db", "#050911" },
-//	[SchemeSel] = { "#bac9db", "#050911" },
-//	[SchemeOut] = { "#bac9db", "#909EC2" },
-//};
+	[SchemeNorm] = { "#bac9db", "#050911" },
+	[SchemeSel] = { "#bac9db", "#050911" },
+	[SchemeOut] = { "#bac9db", "#909EC2" },
+};
 
-#include "/home/john/.cache/wal/colors-wal-dmenu.h"
+//#include "/home/john/.cache/wal/colors-wal-dmenu.h"
 
 
 //* -l option; if nonzero, dmenu uses vertical list with given number of lines */
